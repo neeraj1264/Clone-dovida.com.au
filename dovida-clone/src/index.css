@@ -1,0 +1,61 @@
+/* Color palette from site */
+:root {
+  --dovida-burgundy: #3c2826;
+  --dovida-light: #f9f7f7;
+  --dovida-red: #b04d45;
+  --dovida-tan: #a29c93;
+  --dovida-brown: #a7856a;
+  --dovida-beige: #cfc0ab;
+  --wp--preset--color--mt-title: #5E130E;
+  --wp--preset--font-family--mt-secondary: new-hero, sans-serif;
+  --wp--custom--mt-font-weight--semi-bold: 600;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Adobe Garamond Pro', serif;
+  background: var(--dovida-light);
+  color: var(--dovida-burgundy);
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.dovida-app {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--dovida-light);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--dovida-burgundy);
+  font-family: 'Adobe Garamond Pro', serif;
+}
+
+button {
+  background: var(--dovida-red);
+  color: #fff;
+  border: none;
+  border-radius: 22px;
+  padding: 10px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cover-title{
+  color: var(--wp--preset--color--mt-title);
+  font-family: 'Times New Roman', Times, serif;
+    font-weight: var(--wp--custom--mt-font-weight--semi-bold, 600);
+    line-height: 1.16;
+    font-size: 2.75rem;
+    text-align: center;
+}
